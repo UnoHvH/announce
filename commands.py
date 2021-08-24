@@ -5,7 +5,7 @@ import asyncio
 import os
 
 BOT_PREFIX = "e!"
-BOT_TOKEN = os.environ.get('ODc5NjEwNDAwNDQ0OTI4MDMx.YSSPBQ.IGRBbPqUXJlDsRzclIdo4tN54RQ')
+BOT_TOKEN = os.environ.get('ODc5NjEwNDAwNDQ0OTI4MDMx.YSSPBQ.Qn7EDrBSH1-Y8EtyxQN067-5kxM')
 
 current_announcement = {} # current announcement sent | Key: server id, Value: embedded object
 announcement_channel = {} # channel to send announcements to | Key: server id, Value: channel
@@ -167,4 +167,4 @@ async def post(ctx):
             await client.send_message(channel, everyone)
             await client.send_message(channel, embed=announcement)
 
-client.run(ODc5NjEwNDAwNDQ0OTI4MDMx.YSSPBQ.IGRBbPqUXJlDsRzclIdo4tN54RQ)
+client.run(ODc5NjEwNDAwNDQ0OTI4MDMx.YSSPBQ.Qn7EDrBSH1-Y8EtyxQN067-5kxM)
